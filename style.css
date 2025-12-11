@@ -12,7 +12,7 @@
     --color-accent-secondary: #ec4899;
     --color-accent-gradient: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
     --color-overlay: rgba(0, 0, 0, 0.7);
-    
+
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
@@ -20,7 +20,7 @@
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
     --spacing-2xl: 4rem;
-    
+
     /* Typography */
     --font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-size-xs: 0.75rem;
@@ -30,7 +30,7 @@
     --font-size-xl: 1.5rem;
     --font-size-2xl: 2rem;
     --font-size-3xl: 2.5rem;
-    
+
     /* Effects */
     --border-radius-sm: 0.5rem;
     --border-radius-md: 1rem;
@@ -90,8 +90,22 @@ body {
 }
 
 .logo-icon {
-    font-size: var(--font-size-3xl);
+    width: 3rem;
+    height: 3rem;
     filter: drop-shadow(var(--shadow-glow));
+    animation: logoFloat 3s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
 }
 
 .tagline {
@@ -177,6 +191,7 @@ body {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -199,6 +214,7 @@ body {
         opacity: 0;
         transform: scale(0.9);
     }
+
     to {
         opacity: 1;
         transform: scale(1);
@@ -422,31 +438,31 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: var(--spacing-md);
     }
-    
+
     .logo {
         font-size: var(--font-size-2xl);
     }
-    
+
     .filter-title {
         font-size: var(--font-size-xl);
     }
-    
+
     .lightbox-content {
         flex-direction: column;
         gap: var(--spacing-sm);
     }
-    
+
     .lightbox-nav {
         width: 48px;
         height: 48px;
     }
-    
+
     .lightbox-close {
         top: -60px;
         right: 50%;
         transform: translateX(50%);
     }
-    
+
     .lightbox-image {
         max-height: 50vh;
     }
@@ -456,17 +472,17 @@ body {
     .gallery-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .filter-buttons {
         flex-direction: column;
         width: 100%;
     }
-    
+
     .filter-btn {
         width: 100%;
         justify-content: center;
     }
-    
+
     .gallery-image {
         height: 280px;
     }
