@@ -2,10 +2,18 @@
 
 A modern, responsive image gallery application featuring stunning visuals, smooth interactions, and intuitive navigation. Built with vanilla HTML, CSS, and JavaScript.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-purple?style=for-the-badge&logo=vercel)](https://code-alpha-pixel-view-gallery.vercel.app/)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+## 🌐 Live Demo
+
+**[View Live Gallery →](https://code-alpha-pixel-view-gallery.vercel.app/)**
+
+Experience the gallery in action with all features including category filtering, lightbox view, and responsive design.
 
 ## ✨ Features
 
@@ -233,4 +241,4 @@ Have questions or suggestions? Feel free to open an issue or reach out!
 
 ---
 
-<p align="center">Made with ❤️ for visual storytelling</p>
+<p align="center">Made with ❤️ for </p>
